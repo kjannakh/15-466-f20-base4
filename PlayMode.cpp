@@ -498,8 +498,6 @@ void PlayMode::draw(glm::uvec2 const &drawable_size) {
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 	glDrawArrays(GL_TRIANGLES, 0, 6);
 
-
-	int meshidx = 0;
 	for (auto mesh : meshes) {
 		glBindTexture(GL_TEXTURE_2D, mesh->textureId);
 		glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer);
