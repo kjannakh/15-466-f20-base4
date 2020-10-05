@@ -44,7 +44,7 @@ struct PlayMode : Mode {
 	const glm::u8vec4 base_color = HEX_TO_U8VEC4(0xa709abcc);
 #undef HEX_TO_U8VEC4
 
-	void PlayMode::initGL();
+	void initGL();
 
 	FreeTypeLib lib;
 	HBShaper choiceShaper = HBShaper("C:\\Windows\\Fonts\\Arial.ttf", &lib, 18);
@@ -82,11 +82,11 @@ struct PlayMode : Mode {
 		int num_choices = 0;
 	};
 
-	void PlayMode::drawScreen(Textscreen& screen);
-	void PlayMode::deleteScreen(Textscreen& screen);
-	void PlayMode::add_prompt(Textscreen& screen, std::string text);
-	void PlayMode::add_option(Textscreen& screen, std::string text);
-	void PlayMode::switchToScreen(Textscreen& screen);
+	void drawScreen(Textscreen& screen);
+	void deleteScreen(Textscreen& screen);
+	void add_prompt(Textscreen& screen, std::string text);
+	void add_option(Textscreen& screen, std::string text);
+	void switchToScreen(Textscreen& screen);
 
 	Textscreen intro;
 	Textscreen screen1;

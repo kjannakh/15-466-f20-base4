@@ -190,9 +190,6 @@ PlayMode::PlayMode() {
 
 	choiceShaper.init();
 
-	choiceShaper.addFeature(HBFeature::KerningOn);
-	choiceShaper.addFeature(HBFeature::LigatureOn);
-	choiceShaper.addFeature(HBFeature::CligOn);
 	initGL();
 
 	add_prompt(intro, "You are taking the Game Programming Course at Central Michigan University.");
