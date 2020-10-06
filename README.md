@@ -33,7 +33,7 @@ Sources:
 
 I downloaded the background stock image from https://www.pexels.com/photo/white-wooden-rectangular-table-159213/, under this license: https://www.pexels.com/license/.
 
-I used and modified this example of Harfbuzz and Freetype: https://github.com/tangrams/harfbuzz-example/tree/master/src
+I used and modified this example of Harfbuzz and Freetype: https://github.com/tangrams/harfbuzz-example/tree/master/src under the MIT license.
 
 I also referenced some of my OpenGL drawing code from this tutorial: https://learnopengl.com/In-Practice/Text-Rendering
 
