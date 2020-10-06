@@ -16,6 +16,7 @@
 #include "ColorTextureProgram.hpp"
 #include "game4_util.h"
 #include "hbshaper.h"
+#include "data_path.hpp"
 
 struct PlayMode : Mode {
 	PlayMode();
@@ -47,7 +48,7 @@ struct PlayMode : Mode {
 	void initGL();
 
 	FreeTypeLib lib;
-	HBShaper choiceShaper = HBShaper("C:\\Windows\\Fonts\\Arial.ttf", &lib, 18);
+	HBShaper choiceShaper = HBShaper(data_path("goodfish.regular.ttf"), &lib, 18);
 
 
 	std::vector<VMesh*> meshes;

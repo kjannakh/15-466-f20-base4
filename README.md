@@ -42,5 +42,10 @@ Blippy Trance by Kevin MacLeod
 Link: https://incompetech.filmmusic.io/song/5759-blippy-trance
 License: http://creativecommons.org/licenses/by/4.0/
 
+Goodfish font used under these licenses:
+
+https://www.1001fonts.com/licenses/general-font-usage-terms.html
+https://www.1001fonts.com/goodfish-font.html#more has a link to the zip file with the .ttfs and a readme with details on free use.
+
 This game was built with [NEST](NEST.md)..
 
